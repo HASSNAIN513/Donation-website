@@ -162,7 +162,7 @@ setform({ name: "", message: "", amount: 0 })
                                 trigger="hover"
                                 style={{ "width": "30px", "height": "30px", }}>
                             </lord-icon>
-                                <div> <span className='capitalize font-bold'>{item.name} </span> <span>donated</span><span className="font-bold"> Rs. {item.amount}</span> <span> — </span> <span className='tracking-wide  italic'>"{item.message}."</span></div>
+                                <div> <span className='capitalize font-bold'>{item.name} </span> <span>donated</span><span className="font-bold"> Rs. {item.amount}</span> <span> — </span> <span className='tracking-wide  italic'>  &quot;{item.message}&quot;.</span></div>
                             </li>)
 
                         })}

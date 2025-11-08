@@ -10,7 +10,7 @@ import { updateprofile, info } from '@/user/user-actions'
 
 
 
-const page = () => {
+const Page = () => {
   const [formData, setFormData] = useState({name:"",username:"",coverPicture:" ",profilePicture:" ",stripeId:"",stripeSecret:""})
   const { data: session, status } = useSession()
   const router = useRouter()
@@ -184,7 +184,7 @@ required
   )
 }
 
-export default page
+export default Page
 
 
 
